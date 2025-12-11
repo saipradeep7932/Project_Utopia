@@ -1,0 +1,27 @@
+{
+  "name": "project_utopia",
+  "version": "1.0.0",
+  "description": "Utopia practice",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saipradeep7932/Project_Utopia.git"
+  },
+  "author": "bakugo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saipradeep7932/Project_Utopia/issues"
+  },
+  "homepage": "https://github.com/saipradeep7932/Project_Utopia#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.0.1",
+    "nodemon": "^3.1.11"
+  }
+}
